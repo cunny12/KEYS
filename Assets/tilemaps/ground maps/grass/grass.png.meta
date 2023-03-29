@@ -119,8 +119,8 @@ TextureImporter:
       name: grass_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 142
+        x: 29
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -442,7 +442,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -2, y: 4}
+        - {x: -2, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 4}
       tessellationDetail: 0
       bones: []
       spriteID: d2381131a810d3b48b70c23de75338d8
@@ -488,7 +492,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 4}
+        - {x: -8, y: -8}
+        - {x: 3, y: -8}
+        - {x: 3, y: 4}
       tessellationDetail: 0
       bones: []
       spriteID: 6e64a63a2ed2fc44ea33f098d5e4e2cb
@@ -830,8 +838,8 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: 4, y: 4}
-        - {x: 4, y: -8}
+      - - {x: 1, y: 4}
+        - {x: 1, y: -8}
         - {x: -8, y: -8}
         - {x: -8, y: 4}
       tessellationDetail: 0
@@ -855,8 +863,8 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -4, y: 4}
-        - {x: -4, y: -8}
+      - - {x: -1, y: 4}
+        - {x: -1, y: -8}
         - {x: 8, y: -8}
         - {x: 8, y: 4}
       tessellationDetail: 0
@@ -1049,8 +1057,8 @@ TextureImporter:
       outline: []
       physicsShape:
       - - {x: 8, y: 4}
-        - {x: 4, y: 4}
-        - {x: 4, y: 8}
+        - {x: 1, y: 4}
+        - {x: 1, y: 8}
         - {x: -8, y: 8}
         - {x: -8, y: -5}
         - {x: 3, y: -5}
@@ -1080,8 +1088,8 @@ TextureImporter:
         - {x: -8, y: -5}
         - {x: 8, y: -5}
         - {x: 8, y: 8}
-        - {x: -4, y: 8}
-        - {x: -4, y: 4}
+        - {x: -1, y: 8}
+        - {x: -1, y: 4}
       tessellationDetail: 0
       bones: []
       spriteID: 5790683f3044d1648ace5e784602abb9
@@ -1669,7 +1677,6 @@ TextureImporter:
       grass_54: -1499567327
       grass_14: -668031182
       grass_35: 2073044142
-      grass_61: -1137005060
       grass_19: -1264618464
       grass_42: -124803905
       grass_51: 1028882196
