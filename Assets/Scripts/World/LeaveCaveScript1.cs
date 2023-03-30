@@ -6,13 +6,16 @@ using UnityEngine.SceneManagement;
 
 public class LeaveCaveScript1 : MonoBehaviour
 {
+  public Vector2 PlayerChange;
   public GameObject LeaveCaveIcon;
   public bool playerInRange;   
+  public VectorValue playerStorage;
 
   void Update()
   {
     if (Input.GetKeyDown(KeyCode.E) && playerInRange)
     {
+      playerStorage.initialValue = PlayerChange;
       SceneManager.LoadScene("Outside");
     }
   }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ChangeSceneIntoCave : MonoBehaviour
+public class ChangeSceneIntoOutside : MonoBehaviour
 {
     public VectorValue playerStorage;
     public Vector2 PlayerChange;
@@ -14,8 +14,9 @@ public class ChangeSceneIntoCave : MonoBehaviour
     {
         if (collision.gameObject.name == "player")
         {
+            
+            SceneManager.LoadScene("Outside");
             playerStorage.initialValue = PlayerChange;
-            SceneManager.LoadScene("InsideCave");
         }
     }
 }

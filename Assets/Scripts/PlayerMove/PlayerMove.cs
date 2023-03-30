@@ -8,6 +8,12 @@ public class PlayerMove : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animator;
     Vector2 movement;
+    public VectorValue startingPos;
+    
+    void Start()
+    {
+       transform.position = startingPos.initialValue;
+    }
 
 
     void Update()
